@@ -1,0 +1,103 @@
+	MODELAGEM DE BANCO DE DADOS
+	Introdução a Sistemas de Bancos de Dados (SGDB)
+
+- Sistemas Gerenciadores de Banco de Dados (SGDB)
+- Integridade de um SGBD
+- Banco de Dados Relacional
+- Dados como apoio a tomada de decisão
+
+Banco de dados: Conjunto de dados e informações relacionadas.
+
+
+Date (2003):
+"BD é uma coletânea de dados duráveis (---> Persistência) e acessíveis a vários softwares da empresa."
+
+Características de um BD:
+- Natureza autodescrição
+- Isolamento entre os dados e abstração
+- Suporte à múltiplas visões
+- Suporte a concorrência
+
+Tipos de BD:
+- Sistemas hierárquicos e de rede (os primeiros a serem criados)
+- Relacionais
+- Relacionais orientado a objetos
+- P/ WEB com XML
+- P/ Nuvem
+
+	CONCEITOS
+	SGBD
+
+SGBD = Software que gerencia informações de um BD/Base de dados. Navathe e Ramez (2005).
+
+SGBD deve:
+- Organizar
+- Acessar
+- Controlar
+- Proteger os dados
+
+O SGBD é uma camada que fica entre o BD e as aplicações, realizando  as tarefas de gerenciamento.
+
+Considerações:
+- Projetado p/ gerenciar grandes volumes de dados
+- Mecanismos de controle de falha: software/hardware
+- Suporte -> computação distribuída ou local
+- Suporte -> concorrência sobre os dados
+- Soluções Open Source / Proprietárias
+
+Importantes SGBD:
+- Oracle
+- MySQL
+- Microsoft SQL Server
+- PostgreSQL (SGBDRO)
+- IBM DB1
+
+Peculiaridades
+- Permitem inclusão, cópia, exclusão, seleção, ordenação e junção de entidades(tabelas).
+- Estabele relações entre as entidades e criação de chaves.
+- Permite importação ou exportação de dados.
+- Possibilita a alteração da estrutura de campoes e entidades.
+
+	CONCEITO
+	Proteção e Recuperação de dados em um SGBD
+
+SGBD deve dispor de mecanismos para proteção e recuperação dos dados:
+- Segurança de acesso a dados autorizados
+- Adminstração de redundância
+- Restrição de integridade
+
+Interação = Transação:
+Processo ou programa que inclui vários BDs ou uma parte do BD, realizando atividades (consultas, alterações, exclusões) de informações da base de dados. Navathe e Ramez (2005).
+
+Requisitos de SGDB - ACID:
+
+- Atomicidade
+- Consistência
+- Isolamento
+- Durabilidade
+
+Registro de Ações (LOG): Recupera o SGDB de falhas, através de registros de todas as operações realizadas.
+
+	CONCEITO
+	Banco de Dados Relacional
+
+Modelagem de dados:
+Abstração e observação depende do indivíduo
+
+Modelo de BD:
+- Representação abstrata e simplificada de um sistema real (gráfico).
+- Grande aceitação, possibilitando comunicação entre usuário final de BD.
+
+Modelo relacional:
+- Não estático
+- Suporta evolução (baseado em iterações).
+- Informações acomodadas em tabelas e linhas(tuplas).
+- Operações em álgebra relacional e teoria de conjuntos.
+    . Seleção     . Subtração
+    . União       . Produto cartesiano
+    . Junção      . Projeção
+- Organização estrutural: tabelas, colunas e tuplas
+- Integridade: restrições à satisfazer
+- Manipulador: operações possíveis (inclusão, exclusão, junção e outras).
+
+
