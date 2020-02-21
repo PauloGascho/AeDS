@@ -1,0 +1,53 @@
+	LÓGICA COMPUTACIONAL
+	Princípios Fundamentais da Matemática e da Lógica
+
+	FUNDAMENTOS
+
+Definições:
+Lógica: arte de pensar corretamente.
+ou estudo dos modos corretos do pensamento. (Soares, 2014)
+
+Ciência que estuda os argumentos, suas premissas e conclusões, os métodos e princípios que possibilitam a distinção entre argumentos válidos e não válidos.
+
+Premissas(Proposições) > Raciocínio > Construção > Resultado
+	resultados equivocados podem ocorrer com processos mal construído.
+
+Classificação da Lógica:
+Indutiva (á partir de experiência e observação)
+  Ex: O Sol nasceu todas as manhãs até hoje. Logo, é provável que nasça amanhã.
+  Combinação, Probabilidades...
+
+Dedutiva (à partir de premissas)
+  Todo homem é mortal. Sócraates é um homem. Logo, Sócrates é mortal.
+  Clássica
+  Não clássica
+
+Proposição:
+  Frase declarativa, expressa palavras ou símbolos, que exprima um juízo ao qual se possa atribuir, dentro de certo contexto, somente um de dois valores lógicos:  verdadeiro ou falso.
+
+Princípios Fundamentais da Lógica Clássica:
+- Identidade
+  Uma proposição verdadeira é verdadeira. Uma proposição falsa é falsa.
+- Não-Contradição
+  Uma proposição não pode ser verdadeira e falsa ao mesmo tempo.
+- Terceiro Excluído
+  Toda proposição ou é verdadeira ou é falsa. Não existe terceira alternativa.
+
+	APLICAÇÃO DE ANÁLISE COMBINATÓRIA
+
+Fatorial:
+n! = n * (n-1) * (n-2) ...
+
+Ex:
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+- Não existe fatorial de um número negativo
+- Príncípio Fundamental da contagem
+
+Análise combinatória:
+  Total do grupo1 * Total do grupo2 * Total do grupo3 ...
+
+
+
+
+
