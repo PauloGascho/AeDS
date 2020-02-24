@@ -100,4 +100,45 @@ Modelo relacional:
 - Integridade: restrições à satisfazer
 - Manipulador: operações possíveis (inclusão, exclusão, junção e outras).
 
+	CONCEITO
+	Dados como apoio a tomada de decisão
+
+Produção de inteligência de negócio
+Facilitam tomada de decisãoes
+Obtenção de informações de alto nível e informações detalhadas nos SGBDs
+
+Data Mining:
+Mineração ou descoberta de informações através de regras/padrões em grandes quantidades de dados.
+
+OLTP (On-line Transaction Processing):
+Processamento de Trasações em Tempo Real.
+Operações realizadas no SGBD, atravéis de repetidas transações, para os níveis operacional e administrativo. Date(2003)
+
+OLTP = Comandos SQL com resultados voláteis
+
+	Redundancia
+
+Grande número de dados e molagem de um BD podem levar a redundâncias = problemas.
+Análise dos atributos das entidades.
+SGBD deve permitir redundância controlada.
+
+Redundância para recuperação de Falhas
+Política de BACKUP
+
+  Responsabilidades (quem fará o backuo? quem terá acesso?)
+  Meios (como será realizado? qual mídia ou nuvem? qual software? qual hardware?)
+  Período (qual o intervalo dos backups?)
+  Retenção (quanto tempo o backup deve ficar armazenado na mesma mídia?)
+  Armazenamento (onde serão armazenados?)
+
+Proteção de SGBD
+
+  SGBD Permite várias formas de segurança.
+  Políticas de Segurança de SGBD.
+  Pilares:
+   - Integridade
+   - Confiabilidade
+   - Disponibilidade
+
+
 
